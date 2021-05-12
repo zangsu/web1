@@ -6,13 +6,72 @@
   <meta property="og:title" content="수학과 홈페이지"/>
   <meta property="og:image" content="https://math.knu.ac.kr/HOME/data/bbsData/math/MAIN_1471498594"/>
   <meta property="og:url" content="https://math.knu.ac.kr/index.htm" />
+  <script>
+  var metalist = document.querySelector('body');
+  metalist.style.backgroudcolor = 'white';
+  metalist.style.color = 'blue';
+  </script>
+  <style>
+  body{
+    margin:0;
+  }
+  a {
+    color:blue;
+    text-align:center;
+  }
+  h1{
+    border-bottom: 1px solid gray;
+    text-align:center;
+    font-size: 45px;
+    padding: 20px;
+    margin: 0px;
+  }
+  ol
+  {
+    border-right: 1px gray solid;
+    width : 100px;
+    margin:0px;
+    padding:20px;
+    font-size:20px;
+  }
+  #main{
+    display:grid;
+    grid-template-columns: 150px 1fr;
+  }
+  </style>
   <!--트위터 카드 역시 마찬가지-->
   <!-- link 는 css, script는 js-->
   </head>
 <body>
-  <textarea name="name" rows="1" cols="15"></textarea>
-  <textarea name="name" rows="1" cols="15"></textarea>
-  <input type="button" value = "login">
+  <h1>
+  <a class="home_link" href="home.html">
+    홈
+  </a>
+</h1>
+<div id = main>
+  <div>
+    <ol>
+      <li>목차1</li>
+      <li>목차2</li>
+    </ol>
+  </div>
+  <div>
+    <script>
+    let arr = ["김일석", "강민승"];
+    document.write(arr[0]);
+    </script>
+    <br>
+    <a>asf</a>
+    <br>
+    <a>asfe</a>
+    김일석 강민승
+    <textarea name="name" rows="1" cols="15"></textarea>
+    <textarea name="name" rows="1" cols="15"></textarea>
+    <input type="button" value = "login" onclick =
+    "alert(15)"
+    >
+  </div>
+</div>
   </body>
   <nav>
     nav element
